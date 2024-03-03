@@ -1,0 +1,83 @@
+{
+  "name": "yui",
+  "version": "1.1.2",
+  "build_date": "26-02-2024",
+  "build_name": "Cadou",
+  "private": "true",
+  "description": "Novo Projeto Yui, uma versão totalmente nova feita com novas APIs, sistemas, 13+ idiomas e muito mais, sendo um projeto novo, aberto e sem nenhum foco lucrativo.",
+  "main": "lib/Initialize/checker.js",
+  "scripts": {
+    "start": "node lib/Initialize/checker.js",
+    "toolbox": "bash lib/Scripts/Toolbox.sh",
+    "test": "bash lib/Scripts/Toolbox.sh"
+  },
+  "author": "Pyon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyon/yui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pyon/yui/issues"
+  },
+  "homepage": "https://github.com/pyon/yui",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@hapi/boom": "^10.0.1",
+    "@KillovSky/nasa": "^1.0.1",
+    "@KillovSky/telegraph": "^1.0.0",
+    "@KillovSky/tree": "^1.0.0",
+    "@vitalets/google-translate-api": "^9.2.0",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "async-g-i-s": "^1.5.1",
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "canvacord": "^5.4.10",
+    "canvafy": "^7.0.4",
+    "chess-image-generator": "^1.0.9",
+    "chess.js": "^1.0.0-beta.6",
+    "chokidar": "^3.5.3",
+    "command-exists": "^1.2.9",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "gifencoder": "^2.0.1",
+    "ip": "^2.0.0",
+    "link-preview-js": "^3.0.5",
+    "linkify-plugin-ip": "^4.1.3",
+    "linkifyjs": "^4.1.3",
+    "mumaker": "^2.0.0",
+    "node-webpmux": "^3.1.9",
+    "pet-pet-gif": "^1.0.9",
+    "pino": "^8.12.1",
+    "pretty-num": "^0.5.2",
+    "qrcode-terminal": "^0.12.0",
+    "remove-accents": "^0.5.0",
+    "sharp": "^0.32.2",
+    "similarity": "^1.2.1",
+    "socket.io": "^4.7.2",
+    "text2png": "^2.3.0",
+    "tictactoe-agent": "^2.1.2",
+    "wa-sticker-formatter": "^4.4.4",
+    "word-wrapper": "^1.0.7",
+    "youtube-dl-exec": "^2.4.13",
+    "yt-search": "^2.10.4"
+  },
+  "funding": [
+    {
+      "type": "kofi",
+      "url": "http://ko-fi.com/pyon"
+    },
+    {
+      "type": "others",
+      "url": "https://github.com/pyon#-fundings"
+    }
+  ],
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

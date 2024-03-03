@@ -1,0 +1,144 @@
+{
+	"allowAddParticipants": {
+		"description": "Enables the feature to add participants from Yui. Note: This command is disabled by default for safety reasons due to the elevated risk of receiving a WhatsApp ban.",
+		"value": false
+	},
+	"botCommands": {
+		"description": "Specifies whether Yui should execute commands from her messages. Note: This feature may have serious bugs and is not 100% tested.",
+		"value": false
+	},
+	"botName": {
+		"description": "Defines the name of the BOT.",
+		"value": "Yui"
+	},
+	"codeReload": {
+		"description": "Enables automatic code reloading, eliminating the need for restarts, can cause bugs.",
+		"value": true
+	},
+	"colorSet": {
+		"description": "Defines the color palettes used to print messages and commands to the terminal. Set in the following order: [Normal Text, Body Preview, Date, Groups and Numbers, Command]. Use English named colors and avoid complexity.",
+		"value": ["brightBlue", "brightYellow", "brightRed", "brightGreen", "brightMagenta", "black", "red", "green", "yellow", "blue", "magenta", "cyan", "white", "gray", "grey", "brightCyan", "brightWhite"]
+	},
+	"commandsCooldown": {
+		"description": "Sets the cooldown in milliseconds for command usage. It should be synchronized with 'maxCommands' for effective anti-spam control or use default values.",
+		"value": 5000
+	},
+	"consoleType": {
+		"description": "Defines what information is logged on the screen. A value of 1 prints all information, 2 for messages only, and 3 for commands only.",
+		"value": 1
+	},
+	"fullError": {
+		"description": "The error log method. When set to 'true,' it prints all information, making it ideal for bug reporting. Alternatively, setting it to 'false' is suitable for experts and those who prefer concise and stylish error messages.",
+		"value": true
+	},
+	"ignoreSecurityChecks": {
+		"description": "When activated, Yui executes tasks without waiting for codes to finish (synchronous execution), potentially leading to security vulnerabilities, lags, and bugs, but it enhances command speed.",
+		"value": false
+	},
+	"language": {
+		"description": "Sets the general language for the system and unconfigured users.",
+		"value": "pt"
+	},
+	"listenBroadcasts": {
+		"description": "Specifies if Yui should not ignore people sending status or broadcasts (Yes, Yui sees everything).",
+		"value": false
+	},
+	"listenPolls": {
+		"description": "Specifies if Yui should not ignore poll updates, like votes. If enabled, it will treat poll updates as messages.",
+		"value": false
+	},
+	"listenReactions": {
+		"description": "Specifies if Yui should not ignore reactions. If enabled, it will treat reactions as messages.",
+		"value": false
+	},
+	"maxCommands": {
+		"description": "Sets the maximum number of commands a user can run without triggering the anti-spam feature (cooldown is controlled by 'commandsCooldown').",
+		"value": 3
+	},
+	"maxDecryptSize": {
+		"description": "Sets the maximum size of Yui decrypt system in kilobytes. Higher values can freeze code when decrypting large files or temporarily increase RAM usage significantly.",
+		"value": 16000
+	},
+	"mediaCooldown": {
+		"description": "Sets the cooldown in milliseconds for media messages. It should be synchronized with 'maxCommands' for effective anti-spam control or use default values.",
+		"value": 120000
+	},
+	"minSimilarity": {
+		"description": "Fixes wrong commands based on the similarity between the wrong and the available commands.",
+		"value": 70
+	},
+	"owner": {
+		"description": "An array of users authorized to run any command.",
+		"value": ["5511981736389@s.whatsapp.net"]
+	},
+	"pairingCode": { "value": false, "description": "Defines if the connection should use pairing code instead of qrcode, minified to help termux edition by sed." },
+	"prefixes": {
+		"description": "Defines the prefixes recognized as commands. Does not affect noprefix commands.",
+		"value": [
+			"\\",
+			"/",
+			"$",
+			"^",
+			"=",
+			"+",
+			"!",
+			"&",
+			":",
+			";",
+			">",
+			"<"
+		]
+	},
+	"secureGroup": {
+		"description": "Specifies a secure group for receiving logs in case of system failures to send messages to the correct person or chat. Set 'false' to disable.",
+		"value": false
+	},
+	"secretKey": {
+		"description": "Sets the password used to bypass owner and admin requirements. Never use the default. Create a VERY STRONG password, as this can be SUPER HYPER EXTREMELY DANGEROUS.",
+		"value": "yuiBOT@Root#123"
+	},
+	"spammerTime": {
+		"description": "Sets the time in milliseconds to block any commands sent by someone spamming. For example, if set to 300000, the spammer will need to wait 5 minutes to run commands again.",
+		"value": 120000
+	},
+	"stickerAuthor": {
+		"description": "Sets the author of the created stickers. Keep as default to generate automatic names based on group and user names. Keep the default (optional) to support official devs XD.",
+		"value": "DONTEDITUSER 🎁\nDONTEDITFROM 📱\nDONTEDITMADEAS 📅"
+	},
+    "stickerColors": {
+		"description": "The amount of colors to use into ATTP, more you set, more slow will be.",
+		"value": 5
+	},
+    "stickerFPS": {
+		"description": "The FPS rate of ATTP stickers, more fps is equal to more faster color will change.",
+		"value": 10
+	},
+	"stickerPack": {
+		"description": "Specifies the pack of stickers. Keep the default to create stickers based on information.",
+		"value": "⚙️ User:\n🏠 From:\n🤖 By:\n🕗 Time:"
+	},
+	"stickerQuality": {
+		"description": "Sets the default quality of stickers. Use values from 0 to 100. Higher values may result in stickers being unable to send or becoming extremely heavy, increasing the risk of a ban. If unsure, keep the default.",
+		"value": 40
+	},
+	"tagAdmins": {
+		"description": "Determines whether Yui should tag administrators when she detects and sends spam alerts in a group.",
+		"value": true
+	},
+    "useBanner": {
+		"description": "This controls if Yui should use a banner inside the menu or just send the text, the default banner as made by JoJo.",
+		"value": false
+	},
+	"waitMessage": {
+		"description": "If enabled, Yui will send a message requesting the user to wait for the command to finish to avoid lags.",
+		"value": true
+	},
+    "warnLimit": {
+		"description": "Set the limit of warnings send by warn.",
+		"value": 3
+	},
+	"yourName": {
+		"description": "Specifies the owner's name.",
+		"value": "Pyon"
+	}
+}

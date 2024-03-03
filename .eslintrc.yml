@@ -1,0 +1,23 @@
+env:
+  commonjs: true
+  es2021: true
+  node: true
+extends: airbnb-base
+parserOptions:
+  ecmaVersion: latest
+rules:
+  import/no-extraneous-dependencies: 0
+  indent:
+    - error
+    - 4
+  no-console: 0
+globals:
+  config: true
+  APIs: true
+  os: true
+  tasksComplete: true
+  region: true
+  startedTime: true
+  yuiNumber: true
+  messagesCount: true
+  yuiPath: true
